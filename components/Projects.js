@@ -1,3 +1,5 @@
+import Image from 'next/image';
+import Link from 'next/link';
 import React from 'react';
 
 const Projects = () => {
@@ -7,23 +9,36 @@ const Projects = () => {
                 <div className="project-area">
                     <h2 className="project-title">Projects</h2>
                     <div className="projects-list">
-                    <article className="card">
-                        <h3 className="card-title">QuizHut</h3>
-                        {/* <div className="images">
-                                    <Image src="/html.svg.png" alt="html" layout='fill' objectFit='contain'  />
-                                </div>  */}
-                        <p>View project</p>
-                    </article>
-                    <article className="card">
-                        <h3 className="card-title">Cine Slate</h3>
-                        {/* <img src="" alt="cineslate" /> */}
-                        <p>View project</p>
-                    </article>
-                    <article className="card">
-                        <h3 className="card-title">Portfolio</h3>
-                        {/* <img src="" alt="portfolio" /> */}
-                        <p>View project</p>
-                    </article>
+                    <Link href="/projects/quizhut" passHref>
+                        <article className="card">
+                            <div className="card-images">
+                                <Image src="/html.svg.png" alt="html" layout='fill' objectFit='contain'  />
+                            </div> 
+                            <h3 className="card-title">QuizHut</h3>
+                            <p>View project</p>
+                        </article>
+                    </Link>
+
+                    <Link href="/projects/cineslate" passHref>
+                        <article className="card">
+                            <div className="card-images">
+                                <Image src="/c.png" alt="cineslate" layout='fill' objectFit='contain'  />
+                            </div> 
+                            <h3 className="card-title">Cine Slate</h3>
+                            <p>View project</p>
+                        </article>
+                    </Link>
+
+                   <Link href="/projects/portfolio" passHref>
+                        <article className="card">
+                            <div className="card-images">
+                                <Image src="/html.svg.png" alt="portfolio" layout='fill' objectFit='contain'  />
+                            </div> 
+                            <h3 className="card-title">Portfolio</h3>
+                            <p>View project</p>
+                        </article>
+                   </Link>
+
                     </div>
                 </div>
             </section>

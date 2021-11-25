@@ -7,8 +7,6 @@ import { FaBars, FaGithub, FaTimes } from 'react-icons/fa';
 
 
 const Navbar = () => {
-  // const navRef= useRef();
-  // const buttonRef = useRef();
   const [status, setStatus] = useState(false);
 
   const handleToggle = () => {
