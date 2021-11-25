@@ -3,8 +3,8 @@ import React from 'react'
 const About = () => {
     return (
         <div>
-             <section>
-                <div className="about-area">
+             <section id="about" >
+                <div className="about-area" >
                     <h2 className="about-title">About me</h2>
                     <p className="about-text">
                     Lorem Ipsum has been the industry standard dummy text ever since the

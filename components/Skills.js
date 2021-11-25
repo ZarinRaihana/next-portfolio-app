@@ -4,8 +4,8 @@ import React from 'react';
 const Skills = () => {
     return (
         <div>
-            <section>
-                <div className="skill-area">
+            <section id="skills">
+                <div className="skill-area" >
                     <h2 className="skill-title">Skills</h2>
 
                     <div className="skill-images">
