@@ -1,9 +1,14 @@
-import React from 'react'
+import Image from 'next/image';
+import React from 'react';
+import Resources from '../../components/Resources';
+import Technologies from '../../components/Technologies';
 
 const cineslate = () => {
     return (
         <div  className="projects-page">
+            <button className="project-pages-button "><a href="https://boring-blackwell-f05462.netlify.app/" target='_blank' rel='noreferrer'>Visit the Website</a></button>
             <h2 className="projects-page-title">Cine Slate </h2>
+
             <p className="project-pages-about">Lorem Ipsum has been the industry standard dummy text ever since the
                     1500s, when an unknown printer took a galley of type and scrambled it
                     to make a type specimen book. It has survived not only five centuries,
@@ -11,26 +16,15 @@ const cineslate = () => {
                     unchanged. It was popularised in the 1960s with the release of
                     Letraset sheets containing Lorem Ipsum passages,
             </p>
-            <h3 className="project-pages-subtitle">Technical Sheet</h3>
-            <p className="project-pages-about">
-            Code technologies I got involved with while working on this project - 
-            </p>
-            <ul>
-                <li>HTML5</li>
-                <li>CSS3</li>
-                <li>Javascript</li>
-                <li>React</li>
-                <li>Material UL</li>
+            <div className="project-pages-img">
+                <Image src = "/cineslate.PNG" alt="quizhut" width={1000} height={500} objectFit="contain"  />
+            </div>
 
-            </ul>
+            <Technologies tech = {["HTML5" ,"CSS3", "Javascript", "React", "Material UI"]} />
 
-            <h3 className="project-pages-subtitle">Resources</h3>
+            <Resources live={"https://boring-blackwell-f05462.netlify.app/" } git={"https://github.com/ZarinRaihana/cine-slate"} />
 
-                <ul className="project-pages-about">
-                    <li>The project is online at </li>
-                    <li>Access the project&apos;s source on GITHUB</li>
-                </ul>
-                <button>Go Back</button>
+                <button className="project-pages-button">Go Back</button>
         </div>
     )
 }

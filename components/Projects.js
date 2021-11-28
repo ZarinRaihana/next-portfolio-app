@@ -12,8 +12,8 @@ const Projects = () => {
                     <Link href="/projects/quizhut" passHref>
                         <article className="card">
                             <div className="card-images">
-                                <Image src="/html.svg.png" alt="html" layout='fill' objectFit='contain'  />
-                            </div> 
+                                <Image src="/quizhut.PNG" alt="html" layout='fill' objectFit='contain'  />
+                            </div>
                             <h3 className="card-title">QuizHut</h3>
                             <p>View project</p>
                         </article>
@@ -22,8 +22,8 @@ const Projects = () => {
                     <Link href="/projects/cineslate" passHref>
                         <article className="card">
                             <div className="card-images">
-                                <Image src="/c.png" alt="cineslate" layout='fill' objectFit='contain'  />
-                            </div> 
+                                <Image src="/cineslate.PNG" alt="cineslate" layout='fill' objectFit='contain'  />
+                            </div>
                             <h3 className="card-title">Cine Slate</h3>
                             <p>View project</p>
                         </article>
@@ -32,8 +32,8 @@ const Projects = () => {
                    <Link href="/projects/portfolio" passHref>
                         <article className="card">
                             <div className="card-images">
-                                <Image src="/html.svg.png" alt="portfolio" layout='fill' objectFit='contain'  />
-                            </div> 
+                                <Image src="/portfolio.PNG" alt="portfolio" layout='fill' objectFit='contain'  />
+                            </div>
                             <h3 className="card-title">Portfolio</h3>
                             <p>View project</p>
                         </article>

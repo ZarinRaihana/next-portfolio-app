@@ -1,37 +1,34 @@
-import React from 'react'
+import Image from 'next/image';
+import React from 'react';
+import Resources from '../../components/Resources';
+import Technologies from '../../components/Technologies';
 
 const quizhut = () => {
     return (
         <div className="projects-page">
-            <h2 className="projects-page-title">Quizhut</h2>
+            <div style={{display: 'flex', justifyContent: 'space-between', alignItems:'center'}}>
+                <h2 className="projects-page-title">Quizhut</h2>
+                <button className="project-pages-button" style={{width:'40%'}} ><a href="https://quiz-hut.herokuapp.com/" target='_blank' rel='noreferrer'>Visit the Website</a></button>
+            </div>
+
+            
+
             <p className="project-pages-about">Lorem Ipsum has been the industry standard dummy text ever since the
                     1500s, when an unknown printer took a galley of type and scrambled it
                     to make a type specimen book. It has survived not only five centuries,
                     but also the leap into electronic typesetting, remaining essentially
                     unchanged. It was popularised in the 1960s with the release of
                     Letraset sheets containing Lorem Ipsum passages,</p>
-            <h3 className="project-pages-subtitle">Technical Sheet</h3>
-            <p className="project-pages-about">
-            Code technologies I got involved with while working on this project - 
-            </p>
-            <ul>
-                <li>HTML5</li>
-                <li>CSS3</li>
-                <li>Javascript</li>
-                <li>React</li>
-                <li>Nodejs</li>
-                <li>MongoDB</li>
-                <li>Express</li>
-                <li>Material UL</li>
-            </ul>
+                    
+            <div className="project-pages-img" >
+             <Image src = "/quizhut.PNG" alt="quizhut" width={1000} height={500} objectFit="contain"  />
+            </div>
 
-            <h3 className="project-pages-subtitle">Resources</h3>
-<hr weight= '50px'/>
-                <ul className="project-pages-about">
-                    <li>The project is online at </li>
-                    <li>Access the project&apos;s source on GITHUB</li>
-                </ul>
-                <button>Go Back</button>
+        <Technologies tech={["HTML5", "CSS3", "Javascript", "React", "Nodejs", "Express", "Material UI"]} />
+
+        <Resources live={"https://quiz-hut.herokuapp.com/" } git={"https://github.com/ZarinRaihana/LMS_project"} />
+
+                <button className="project-pages-button">Go Back</button>
         </div>
     )
 }
