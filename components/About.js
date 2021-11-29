@@ -1,12 +1,13 @@
-import React from 'react'
+import React from 'react';
+import classes from '/styles/About.module.css';
 
 const About = () => {
     return (
         <div>
              <section id="about" >
-                <div className="about-area" >
-                    <h2 className="about-title">About me</h2>
-                    <p className="about-text">
+                <div className={classes.aboutArea} >
+                    <h2 className={classes.title}>About me</h2>
+                    <p className={classes.text}>
                     Lorem Ipsum has been the industry standard dummy text ever since the
                     1500s, when an unknown printer took a galley of type and scrambled it
                     to make a type specimen book. It has survived not only five centuries,

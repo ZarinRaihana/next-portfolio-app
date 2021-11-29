@@ -1,10 +1,11 @@
 import React from 'react';
+import classes from "/styles/PortfolioPages.module.css";
 
 const Technologies = ({tech}) => {
     return (
-        <div className="project-pages-tech">
-            <h3 className="project-pages-subtitle">Technical Sheet</h3><hr/>
-            <p className="project-pages-about">
+        <div className={classes.tech}>
+            <h3 className={classes.subtitle}>Technical Sheet</h3><hr/>
+            <p className={classes.about}>
             Code technologies I got involved with while working on this project - 
             </p>
             <ul>

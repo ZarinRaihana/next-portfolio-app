@@ -1,0 +1,127 @@
+/* Projects Section */
+.projectArea {
+  display: flex;
+  padding: 50px 100px;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: aliceblue;
+  height: 100vh;
+}
+.title {
+  width: 20%;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+  letter-spacing: 3px;
+  opacity: 1;
+  animation: example 2s ease 3s 1 forwards;
+}
+.title::before {
+  content: "";
+  position: absolute;
+  height: 3px;
+  background-color: brown;
+  width: 50px;
+}
+.list {
+  display: flex;
+  padding: 3rem;
+  overflow-x: scroll;
+}
+
+.list::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+.list::-webkit-scrollbar-thumb {
+  background: #201c29;
+  border-radius: 10px;
+  box-shadow: inset 2px 2px 2px hsla(0, 0%, 100%, 0.25),
+    inset -2px -2px 2px rgba(0, 0, 0, 0.25);
+}
+
+.list::-webkit-scrollbar-track {
+  background: linear-gradient(90deg, #201c29, #201c29 1px, #17141d 0, #17141d);
+}
+
+.card {
+  height: 350px;
+  width: 400px;
+  min-width: 250px;
+  padding: 1.5rem;
+  border-radius: 16px;
+  background: #17141d;
+  font-family: "Poppins", sans-serif;
+  box-shadow: -1rem 0 3rem #000;
+  display: flex;
+  flex-direction: column;
+  transition: 0.2s;
+  margin: 0;
+  scroll-snap-align: start;
+  clear: both;
+  position: relative;
+  cursor: pointer;
+}
+
+.card:focus-within ~ .card,
+.card:hover ~ .card {
+  transform: translateX(130px);
+}
+
+.card:hover {
+  transform: translateY(-1rem);
+  /* opacity: 0.7; */
+  /* background-color: #27232e; */
+  background-color: #f5f5f5;
+  color: black;
+}
+
+.card:not(:first-child) {
+  margin-left: -130px;
+}
+
+.cardImages {
+  position: relative;
+  height: 200px;
+  width: 350px;
+  display: block;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.cardTitle {
+  grid-area: auto;
+  box-sizing: border-box;
+  margin-top: 20px;
+  letter-spacing: 1px;
+}
+.card p {
+  text-align: center;
+  padding-top: 20px;
+  letter-spacing: 2px;
+}
+
+@media screen and (max-width: 1024px) {
+  .card {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 768px) {
+  .card {
+    flex-direction: column;
+  }
+  .cardImages {
+    height: 200px;
+    width: 200px;
+  }
+  .projectArea {
+    display: block;
+    padding: 25px 0px;
+  }
+  .title {
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+  }
+}

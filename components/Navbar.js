@@ -4,8 +4,6 @@ import { IconContext } from "react-icons";
 import { BsLinkedin } from 'react-icons/bs';
 import { FaBars, FaGithub, FaTimes } from 'react-icons/fa';
 
-
-
 const Navbar = () => {
   const [status, setStatus] = useState(false);
 
@@ -15,7 +13,7 @@ const Navbar = () => {
 
     return (
         <div>
-          <nav className="navbar">
+          <nav>
             <div className="name">
               <h4>Zarin</h4>
             </div>
@@ -41,6 +39,7 @@ const Navbar = () => {
                     <a>Contact</a>
                   </Link>
               </li>
+
               <IconContext.Provider value={{ className: "top-react-icons" }}>
                 <li>
                     <a href="https://github.com/ZarinRaihana"  target='_blank' rel='noreferrer'>

@@ -1,0 +1,114 @@
+/* Portfolio page */
+
+.projectsPage {
+  background-color: black;
+  color: gray;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  height: auto;
+  padding: 100px 250px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.title {
+  font-size: 40px;
+  color: white;
+  letter-spacing: 2px;
+}
+.about {
+  color: gray;
+  padding: 30px 0px;
+  text-align: justify;
+}
+.subtitle {
+  color: whitesmoke;
+  letter-spacing: 2px;
+  padding: 20px 0px;
+  font-weight: 400;
+  font-size: 25px;
+}
+.img {
+  padding: 10px;
+  margin: 30px 0px;
+  width: 100%;
+  border-radius: 5px;
+  background-color: #f5f5f5;
+}
+.tech,
+.resources {
+  padding: 30px 0px;
+}
+.tech hr,
+.resources hr {
+  width: 30vw;
+}
+.projectsPage a {
+  text-decoration: none;
+  color: brown;
+}
+.projectsPage ul {
+  list-style-type: circle;
+  list-style-position: inside;
+}
+.button {
+  width: 20%;
+  color: #000;
+  background-color: #f5f5f5;
+  font-family: "Poppins", sans-serif;
+  padding: 15px 50px;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  border-radius: 5px;
+  float: right;
+  margin: 20px 0px;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: rgb(243, 203, 203);
+  font-weight: 600;
+  color: black;
+}
+.visitButton {
+  width: 30%;
+  padding: 15px 20px;
+  font-weight: 600;
+}
+@media screen and (max-width: 1024px) {
+  .button {
+    display: block;
+    margin: 0px;
+    width: 40%;
+    padding: 5px 10px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .projectsPage {
+    padding: 50px 80px;
+    height: auto;
+  }
+  .header {
+    height: auto;
+    margin-top: 20px;
+  }
+  .title {
+    font-size: 30px;
+  }
+
+  .about {
+    font-size: 18px;
+  }
+  .button {
+    display: block;
+    margin: 0px;
+    width: 100%;
+    padding: 5px 10px;
+  }
+  .visitButton {
+    width: 5%;
+    opacity: 0;
+  }
+}

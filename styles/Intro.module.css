@@ -1,0 +1,167 @@
+/* Background animation */
+.animationArea {
+  background: black;
+  width: 100%;
+  height: 100vh;
+  margin-bottom: 150px;
+}
+.boxArea {
+  position: absolute;
+  top: 8vh;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.boxArea li {
+  position: absolute;
+  display: block;
+  list-style: none;
+  width: 25px;
+  height: 25px;
+  background: rgba(255, 255, 255, 0.2);
+  animation: animate 20s linear infinite;
+  bottom: -150px;
+}
+.boxArea li:nth-child(1) {
+  left: 86%;
+  width: 80px;
+  height: 80px;
+  animation-delay: 0s;
+}
+.boxArea li:nth-child(2) {
+  left: 12%;
+  width: 30px;
+  height: 30px;
+  animation-delay: 1.5s;
+  animation-duration: 10s;
+}
+.boxArea li:nth-child(3) {
+  left: 70%;
+  width: 100px;
+  height: 100px;
+  animation-delay: 5.5s;
+}
+.boxArea li:nth-child(4) {
+  left: 42%;
+  width: 150px;
+  height: 150px;
+  animation-delay: 0s;
+  animation-duration: 15s;
+}
+.boxArea li:nth-child(5) {
+  left: 65%;
+  width: 40px;
+  height: 40px;
+  animation-delay: 0s;
+}
+.boxArea li:nth-child(6) {
+  left: 15%;
+  width: 110px;
+  height: 110px;
+  animation-delay: 3.5s;
+}
+@keyframes animate {
+  0% {
+    transform: translateY(0) rotate(0deg);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-800px) rotate(360deg);
+    opacity: 0;
+  }
+}
+
+/* INTRO */
+.introText {
+  width: 100%;
+  z-index: 1;
+  color: rgb(230, 222, 222);
+  padding: 220px;
+  font-family: "Poppins", monospace;
+}
+
+.name {
+  font-size: 50px;
+  position: relative;
+  width: max-content;
+}
+.name span {
+  color: brown;
+}
+
+.name::before,
+.name::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.name::before {
+  background: black;
+  animation: typewriter var(--typewriterSpeed)
+    steps(var(--typewriterCharacters)) 1s forwards;
+}
+
+.name::after {
+  width: 0.05em;
+  background: rgb(255, 252, 252);
+  animation: typewriter var(--typewriterSpeed)
+      steps(var(--typewriterCharacters)) 1s forwards,
+    blink 750ms steps(var(--typewriterCharacters)) infinite;
+}
+
+.subtitle {
+  color: gray;
+  font-size: 22px;
+  letter-spacing: 2px;
+  margin-top: 20px;
+  opacity: 0;
+  transform: translateY(3rem);
+  animation: fadeInUp 2s ease calc(var(--typewriterSpeed) + 1s) forwards;
+}
+
+@keyframes typewriter {
+  to {
+    left: 100%;
+  }
+}
+
+@keyframes blink {
+  to {
+    background: transparent;
+  }
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .introText {
+    padding-left: 90px;
+  }
+  .name {
+    font-size: 40px;
+  }
+  .subtitle {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .introText {
+    padding-left: 80px;
+  }
+  .name {
+    font-size: 25px;
+  }
+  .subtitle {
+    font-size: 15px;
+  }
+}
