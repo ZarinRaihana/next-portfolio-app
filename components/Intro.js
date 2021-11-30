@@ -15,7 +15,7 @@ const Intro = () => {
                 </ul>
                 <div className={classes.introText}>
                   <h1 className={classes.name}>Hi, I&apos; m <span>Zarin Raihana.</span></h1>
-                  <p className={classes.subtitle}>Javascript Developer</p>
+                  <p className={classes.subtitle}>Front-End Developer</p>
                 </div>
             </div>
         </div>

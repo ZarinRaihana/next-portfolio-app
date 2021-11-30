@@ -16,18 +16,13 @@ const quizhut = () => {
                 </button>
             </div>          
 
-            <p className={classes.about}>Lorem Ipsum has been the industry standard dummy text ever since the
-                    1500s, when an unknown printer took a galley of type and scrambled it
-                    to make a type specimen book. It has survived not only five centuries,
-                    but also the leap into electronic typesetting, remaining essentially
-                    unchanged. It was popularised in the 1960s with the release of
-                    Letraset sheets containing Lorem Ipsum passages,</p>
+            <p className={classes.about}>An online examination system which help teachers to create, conduct and evaluate assessments and quizes online.</p>
                     
             <div className={classes.img} >
              <Image src = "/quizhut.PNG" alt="quizhut" width={1000} height={500} objectFit="contain"  />
             </div>
 
-            <Technologies tech={["HTML5", "CSS3", "Javascript", "React", "Nodejs", "Express", "Material UI"]} />
+            <Technologies tech={["HTML5", "CSS3", "Javascript", "React", "Nodejs", "Express", "MongoDB", "Material UI"]} />
 
             <Resources live={"https://quiz-hut.herokuapp.com/" } git={"https://github.com/ZarinRaihana/LMS_project"} />
 

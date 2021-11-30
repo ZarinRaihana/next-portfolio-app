@@ -8,14 +8,12 @@ import Skills from "../components/Skills";
 export default function Home() {
   return (
     <div>
-      
       <Navbar />
       <Intro />
       <About />
       <Skills />
       <Projects />
       <Contact />
-      {/* <Scrollup/> */}
     </div>
   )
 }

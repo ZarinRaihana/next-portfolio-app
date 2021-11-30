@@ -14,7 +14,9 @@ const Navbar = () => {
     return (
         <div>
           <nav>
-            <div className="name" onClick={() => window.scroll(0,0)}>
+            <div className="name" onClick={() => {setTimeout(function () {
+            window.scrollTo(0, 0);
+        },1000)}}>
               <h4>Zarin</h4>
             </div>
 
@@ -47,7 +49,7 @@ const Navbar = () => {
                     </a>
                 </li>
                 <li>
-                  <a href="https://linkedin.com" target='_blank' rel='noreferrer'>
+                  <a href="https://www.linkedin.com/in/zarin-raihana-46a580227/" target='_blank' rel='noreferrer'>
                       <BsLinkedin  />
                   </a>
                 </li>

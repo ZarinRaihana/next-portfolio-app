@@ -56,12 +56,13 @@ nav {
   text-decoration: none;
   letter-spacing: 3px;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 16px;
   color: rgb(230, 222, 222);
 }
 .nav-links a:hover {
   color: #ea0f1e;
-  font-size: 16px;
+  font-size: 18px;
+  transition: all 0.4s cubic-bezier(0.2, 0.6, 0.2, 1);
 }
 /* Icons */
 .top-react-icons {

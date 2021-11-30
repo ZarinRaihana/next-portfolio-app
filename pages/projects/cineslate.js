@@ -16,12 +16,7 @@ const cineslate = () => {
                 </button>
             </div>
 
-            <p className={classes.about}>Lorem Ipsum has been the industry standard dummy text ever since the
-                    1500s, when an unknown printer took a galley of type and scrambled it
-                    to make a type specimen book. It has survived not only five centuries,
-                    but also the leap into electronic typesetting, remaining essentially
-                    unchanged. It was popularised in the 1960s with the release of
-                    Letraset sheets containing Lorem Ipsum passages,
+            <p className={classes.about}>A responsive movie app built with React and Material UI using TMDB api which provides information about movies and tv series.
             </p>
             <div className={classes.img}>
                 <Image src = "/cineslate.PNG" alt="quizhut" width={1000} height={500} objectFit="contain"  />
