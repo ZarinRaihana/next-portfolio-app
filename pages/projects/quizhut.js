@@ -26,7 +26,7 @@ const quizhut = () => {
 
             <Resources live={"https://quiz-hut.herokuapp.com/" } git={"https://github.com/ZarinRaihana/LMS_project"} />
 
-            <Link href ="/" passHref>
+            <Link href ="/#projects" passHref>
                 <button className={classes.button}>Go Back</button>
              </Link>
         </div>

@@ -26,7 +26,7 @@ const cineslate = () => {
 
             <Resources live={"https://boring-blackwell-f05462.netlify.app/" } git={"https://github.com/ZarinRaihana/cine-slate"} />
 
-            <Link href ="/" passHref>
+            <Link href ="/#projects" passHref>
                 <button className={classes.button}>Go Back</button>
             </Link>
         </div>

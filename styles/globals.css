@@ -56,12 +56,12 @@ nav {
   text-decoration: none;
   letter-spacing: 3px;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 14px;
   color: rgb(230, 222, 222);
 }
 .nav-links a:hover {
   color: #ea0f1e;
-  font-size: 18px;
+  font-size: 16px;
   transition: all 0.4s cubic-bezier(0.2, 0.6, 0.2, 1);
 }
 /* Icons */

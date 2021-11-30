@@ -3,7 +3,7 @@
 .projectsPage {
   background-color: black;
   color: gray;
-  font-size: 20px;
+  font-size: 18px;
   font-family: "Poppins", sans-serif;
   height: auto;
   padding: 100px 250px;
@@ -21,7 +21,7 @@
 .about {
   color: gray;
   padding: 30px 0px;
-  text-align: justify;
+  /* text-align: justify; */
 }
 .subtitle {
   color: whitesmoke;
@@ -58,13 +58,13 @@
   color: white;
   background-color: #008ccf;
   font-family: "Poppins", sans-serif;
-  padding: 15px 50px;
-  font-size: 20px;
+  padding: 15px 20px;
+  font-size: 18px;
   font-weight: 500;
   letter-spacing: 2px;
   border-radius: 5px;
   float: right;
-  margin: 20px 0px;
+  margin-top: 20px;
   cursor: pointer;
 }
 .button:hover {
@@ -73,12 +73,12 @@
 .visitButton {
   width: 30%;
   padding: 15px 20px;
-  font-weight: 600;
+  font-weight: 500;
   background-color: white;
 }
 .visitButton:hover {
   background-color: white;
-  font-size: 21px;
+  font-size: 20px;
   transition: all 0.4s cubic-bezier(0.2, 0.6, 0.2, 1);
 }
 @media screen and (max-width: 1024px) {
@@ -91,7 +91,7 @@
 }
 @media screen and (max-width: 768px) {
   .projectsPage {
-    padding: 50px 80px;
+    padding: 50px 60px;
     height: auto;
   }
   .header {

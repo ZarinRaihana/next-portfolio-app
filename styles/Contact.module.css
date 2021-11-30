@@ -18,11 +18,11 @@
   letter-spacing: 3px;
 }
 .text {
-  color: #f5f5f5;
+  color: gray;
   padding: 20px;
   padding-bottom: 10px;
   border-radius: 15px;
-  text-align: justify;
+  /* text-align: justify; */
 }
 .email {
   padding: 0px 20px;
@@ -39,14 +39,11 @@
 }
 @media screen and (max-width: 768px) {
   .contactArea {
-    padding: 50px;
+    padding: 50px 20px;
     margin: 20px;
     height: auto;
   }
   .title {
     font-size: 30px;
-  }
-  .text {
-    font-size: 18px;
   }
 }
