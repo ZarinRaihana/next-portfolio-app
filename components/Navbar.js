@@ -16,7 +16,7 @@ const Navbar = () => {
           <nav>
             <div className="name" onClick={() => {setTimeout(function () {
             window.scrollTo(0, 0);
-        },1000)}}>
+            },200)}}>
               <h4>Zarin</h4>
             </div>
 
