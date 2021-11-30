@@ -9,9 +9,13 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 section {
   margin-bottom: 150px;
+}
+#contact {
+  margin-bottom: 0;
 }
 @media screen and (max-width: 768px) {
   body {
@@ -34,9 +38,10 @@ nav {
 }
 .name {
   text-transform: uppercase;
-  color: brown;
+  color: #ea0f1e;
   letter-spacing: 5px;
   font-size: 20px;
+  cursor: pointer;
 }
 .nav-links {
   width: 40%;
@@ -55,7 +60,7 @@ nav {
   color: rgb(230, 222, 222);
 }
 .nav-links a:hover {
-  color: brown;
+  color: #ea0f1e;
   font-size: 16px;
 }
 /* Icons */

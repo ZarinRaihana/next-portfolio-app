@@ -10,7 +10,7 @@ const quizhut = () => {
         <div className={classes.projectsPage}>
             
             <div className={classes.header}>
-                <h2 className={classes.title}>Quizhut</h2>
+                <h2 className={classes.title}>QuizHut</h2>
                 <button className={`${classes.button} ${classes.visitButton}`}  >
                     <a href="https://quiz-hut.herokuapp.com/" target='_blank' rel='noreferrer'>Visit the Website</a>
                 </button>

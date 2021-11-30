@@ -14,7 +14,7 @@ const Navbar = () => {
     return (
         <div>
           <nav>
-            <div className="name">
+            <div className="name" onClick={() => window.scroll(0,0)}>
               <h4>Zarin</h4>
             </div>
 

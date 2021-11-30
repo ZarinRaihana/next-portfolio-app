@@ -17,11 +17,17 @@
   opacity: 1;
   animation: example 2s ease 3s 1 forwards;
 }
+@keyframes example {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 .title::before {
   content: "";
   position: absolute;
   height: 3px;
-  background-color: brown;
+  background-color: #ea0f1e;
   width: 50px;
 }
 .list {
@@ -71,8 +77,6 @@
 
 .card:hover {
   transform: translateY(-1rem);
-  /* opacity: 0.7; */
-  /* background-color: #27232e; */
   background-color: #f5f5f5;
   color: black;
 }
@@ -103,17 +107,38 @@
 }
 
 @media screen and (max-width: 1024px) {
-  .card {
-    flex-direction: column;
+  .cardImages {
+    height: 200px;
+    width: auto;
   }
 }
 @media screen and (max-width: 768px) {
-  .card {
-    flex-direction: column;
+  .projectArea {
+    height: auto;
   }
+  .list {
+    flex-direction: column;
+    align-items: center;
+  }
+  .card {
+    margin: 10px 0px;
+  }
+  .card:focus-within ~ .card,
+  .card:hover ~ .card {
+    transform: translateX(0px);
+  }
+
+  .card:hover {
+    transform: translateY(-1rem);
+  }
+
+  .card:not(:first-child) {
+    margin-left: 0px;
+  }
+
   .cardImages {
-    height: 200px;
-    width: 200px;
+    height: 300px;
+    width: 300px;
   }
   .projectArea {
     display: block;

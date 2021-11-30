@@ -1,0 +1,46 @@
+.contactArea {
+  height: 100vh;
+  background-color: black;
+  margin: 100px;
+  border-radius: 30px;
+  padding: 200px;
+  color: gray;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 30px;
+}
+.title {
+  color: white;
+  padding: 0px 10px;
+  text-align: left;
+  margin-bottom: 20px;
+  font-size: 40px;
+  letter-spacing: 3px;
+}
+.text {
+  color: #f5f5f5;
+  padding: 20px;
+  padding-bottom: 10px;
+  border-radius: 15px;
+  text-align: justify;
+}
+.email {
+  padding: 0px 20px;
+}
+.contactArea a {
+  text-decoration: none;
+  color: #ea0f1e;
+  padding: 10px 0px;
+}
+@media screen and (max-width: 768px) {
+  .contactArea {
+    padding: 50px;
+    margin: 20px;
+    height: auto;
+  }
+  .title {
+    font-size: 30px;
+  }
+  .text {
+    font-size: 18px;
+  }
+}
