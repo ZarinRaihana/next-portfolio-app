@@ -16,13 +16,13 @@ const quizhut = () => {
                 </button>
             </div>          
 
-            <p className={classes.about}>An online examination system which help teachers to create, conduct and evaluate assessments and quizes online.</p>
+            <p className={classes.about}>An online examination system which help teachers to create, conduct and evaluate assessments and quizzes online.</p>
                     
             <div className={classes.img} >
              <Image src = "/quizhut.PNG" alt="quizhut" width={1000} height={500} objectFit="contain"  />
             </div>
 
-            <Technologies tech={["HTML5", "CSS3", "Javascript", "React", "Nodejs", "Express", "MongoDB", "Material UI"]} />
+            <Technologies tech={["HTML5", "CSS3", "JavaScript", "React", "Node.js", "Express", "MongoDB", "Material UI"]} />
 
             <Resources live={"https://quiz-hut.herokuapp.com/" } git={"https://github.com/ZarinRaihana/LMS_project"} />
 

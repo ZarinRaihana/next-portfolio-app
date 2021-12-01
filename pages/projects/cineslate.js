@@ -22,7 +22,7 @@ const cineslate = () => {
                 <Image src = "/cineslate.PNG" alt="quizhut" width={1000} height={500} objectFit="contain"  />
             </div>
 
-            <Technologies tech = {["HTML5" ,"CSS3", "Javascript", "React", "Material UI"]} />
+            <Technologies tech = {["HTML5" ,"CSS3", "JavaScript", "React", "Material UI"]} />
 
             <Resources live={"https://boring-blackwell-f05462.netlify.app/" } git={"https://github.com/ZarinRaihana/cine-slate"} />
 

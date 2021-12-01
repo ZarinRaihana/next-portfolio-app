@@ -19,7 +19,7 @@ const portfolio = () => {
                 <Image src = "/portfolio.PNG" alt="quizhut" width={1000} height={500} objectFit="contain" />
             </div>
 
-            <Technologies tech={["HTML5", "CSS3", "Javascript", "React", "Nextjs"]} />
+            <Technologies tech={["HTML5", "CSS3", "JavaScript", "React", "Next.js"]} />
             <Resources live={"https://thirsty-kepler-245d32.netlify.app/"} git={"https://github.com/ZarinRaihana/next-portfolio-app"} />
             
             <Link href ="/#projects" passHref>

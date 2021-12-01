@@ -142,7 +142,7 @@
   }
 
   .card:not(:first-child) {
-    margin-left: 0px;
+    margin-left: 10px;
   }
 
   .cardImages {
