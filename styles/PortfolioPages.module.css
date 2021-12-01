@@ -93,10 +93,11 @@
   .projectsPage {
     padding: 50px 60px;
     height: auto;
+    overflow: hidden;
   }
   .header {
     height: auto;
-    margin-top: 20px;
+    /* margin-top: 20px; */
   }
   .title {
     font-size: 30px;

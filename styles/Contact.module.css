@@ -46,4 +46,9 @@
   .title {
     font-size: 30px;
   }
+  .contactArea a:hover {
+    font-size: 18px;
+    padding-left: 0px;
+    transition: 0;
+  }
 }
