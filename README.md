@@ -1,3 +1,5 @@
+# Portfolio App
+
 A responsive personal portfolio website to show off skills, experience, projects to potential clients and/or employers. Built with Next.js and React.
 
 ## Available Scripts
