@@ -6,12 +6,16 @@ A responsive personal portfolio website to show off skills, experience, projects
 
 In the project directory, you can run:
 
-### yarn install || npm install
+### yarn install 
+or 
+### npm install
 
 Installs all the dependencies.
 
 
-### npm run dev|| yarn dev
+### npm run dev
+or
+### yarn dev
 
 Runs the app in the development mode
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
