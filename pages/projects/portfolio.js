@@ -20,7 +20,7 @@ const portfolio = () => {
             </div>
 
             <Technologies tech={["HTML5", "CSS3", "JavaScript", "React", "Next.js"]} />
-            <Resources live={"https://thirsty-kepler-245d32.netlify.app/"} git={"https://github.com/ZarinRaihana/next-portfolio-app"} />
+            <Resources live={"https://zarin-raihana-245d32.netlify.app/"} git={"https://github.com/ZarinRaihana/next-portfolio-app"} />
             
             <Link href ="/#projects" passHref>
                 <button className={classes.button}>Go Back</button>

@@ -10,14 +10,11 @@ In the project directory, you can run:
 
 Installs all the dependencies.
 
-
 ### `npm run dev` or `yarn dev`
 
 Runs the app in the development mode
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-
-
 ### Deployment
 
-Live - [Click Here](https://thirsty-kepler-245d32.netlify.app/)
+Live - [Click Here](https://zarin-raihana-245d32.netlify.app/)
